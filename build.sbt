@@ -15,7 +15,10 @@ libraryDependencies ++= Seq(
   // Uncomment to use Akka
   //"com.typesafe.akka" % "akka-actor_2.11" % "2.3.9",
   "com.typesafe.play" %% "play" % "2.3.9",
+  "com.typesafe.play" % "sbt-plugin" % "2.3.9",
   "com.typesafe.play" %% "play-test" % "2.3.9" % "test",
   "junit"             % "junit"           % "4.12"  % "test",
-  "com.novocode"      % "junit-interface" % "0.11"  % "test"
+  "com.novocode"      % "junit-interface" % "0.11"  % "test",
+  "com.basho.riak"    % "riak-client" % "2.0.1",
+  "com.basho.riak.protobuf" % "riak-pb" % "2.0.0.16"
 )
